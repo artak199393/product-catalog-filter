@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: #DFEDED60;
+  padding: 3% 6%;
+}
+.filter-container{
+  width: 100%;
+}
+h1 {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+
+

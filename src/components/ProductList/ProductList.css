@@ -1,0 +1,25 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    background: #fff;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+.product-card:hover {
+    box-shadow: rgb(229, 229, 229) 0 0 10px;
+}
+@media (max-width: 425px) {
+    .product-card {
+        width: 100%;
+    }
+}
